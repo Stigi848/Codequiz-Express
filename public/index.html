@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <h1>Koders Quiz</h1>
+    <h2>Poprawne odpowiedzi: <span id="goodAnswers">0</span></h2>
+
+    <div id='gameboard'>
+      <div id="tip"></div>
+        <button id="callToFriend" class="handle">Tel do przyjaciela</button>
+        <button id="halfToHalf" class="handle">Pół na pół</button>
+        <!-- <button id="questionToCrowd" class="handle">Pyt. do publiczności</button> -->
+        <div id="question" class="question"></div>
+        <button class= 'ansButton' id="answear1" data-answer='0'></button>
+        <button class= 'ansButton' id="answear2" data-answer='1'></button>
+        <button class= 'ansButton' id="answear3" data-answer='2'></button>
+        <button class= 'ansButton' id="answear4" data-answer='3'></button>
+    </div>
+    <div class='circle'></div>
+    <script src='script.js'></script>
+</body>
+
+</html>

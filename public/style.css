@@ -1,0 +1,54 @@
+body{
+    background-color:rgba(59, 142, 197, 0.582); ;
+    display: block;
+    text-shadow: 1px 1px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+
+.circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    top: 40vh;
+    z-index: 0;
+animation-name: lights;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes lights {
+0%   {background-color:red; left:-50px; top:0px;}
+25%  {background-color:yellow; left:320px; top:0px;}
+50%  {background-color:blue; left:320px; top:310px;}
+75%  {background-color:green; left:-50px; top:310px;}
+100% {background-color:red; left:0px; top:0px;}
+}
+
+.ansButton{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(128, 0, 75);
+    border: 5px, solid orange;
+    text-align: center;
+}
+
+.handle{
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: navy;
+    color: whitesmoke;
+    text-align: center;
+    
+}
